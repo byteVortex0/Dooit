@@ -70,6 +70,8 @@ class BuildItemAllLists extends StatelessWidget {
 
             Spacer(),
             Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 BlocBuilder<GetAllTasksCubit, GetAllTasksState>(
                   builder: (context, state) {
@@ -91,7 +93,7 @@ class BuildItemAllLists extends StatelessWidget {
                           icon: Icon(
                             Icons.delete,
                             color: Colors.black,
-                            size: 20.sp,
+                            size: 15.sp,
                           ),
                         );
                       },
@@ -99,7 +101,7 @@ class BuildItemAllLists extends StatelessWidget {
                   },
                 ),
 
-                SizedBox(height: 7.h),
+                SizedBox(height: MediaQuery.of(context).size.height * 0.03),
 
                 if (tasks.isPinned)
                   Transform.rotate(
@@ -107,7 +109,7 @@ class BuildItemAllLists extends StatelessWidget {
                     child: Icon(
                       Icons.push_pin,
                       color: Colors.black,
-                      size: 20.sp,
+                      size: 15.sp,
                     ),
                   ),
               ],

@@ -21,7 +21,7 @@ class BuildItemList extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Transform.scale(
-              scale: MediaQuery.of(context).size.width / 450,
+              scale: MediaQuery.of(context).size.width / 470,
               child: Checkbox(
                 value: cubit.todos[index]['isChecked'],
                 activeColor: Colors.black,

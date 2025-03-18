@@ -80,7 +80,10 @@ class _HomeScreenState extends State<HomeScreen>
                 labelColor: Colors.white,
                 labelStyle: StylesManager.white15w400,
                 unselectedLabelColor: Colors.black45,
-                tabs: [Tab(text: 'All List'), Tab(text: 'Pinned')],
+                tabs: [
+                  Tab(child: FittedBox(child: Text('All List'))),
+                  Tab(child: FittedBox(child: Text('Pinned'))),
+                ],
               ),
             ),
 

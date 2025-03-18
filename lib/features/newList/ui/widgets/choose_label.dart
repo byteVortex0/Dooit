@@ -34,22 +34,34 @@ class ChooseLabel extends StatelessWidget {
     return BlocBuilder<PutTasksCubit, PutTasksState>(
       builder: (context, state) {
         return Expanded(
+          flex: 1,
           child: GestureDetector(
             onTap: () {
               context.read<PutTasksCubit>().selectedLabel(index);
             },
-            child: Container(
-              padding: EdgeInsets.symmetric(vertical: 5.w),
-              margin: EdgeInsets.symmetric(horizontal: 5.w),
-              decoration: BoxDecoration(
-                color:
-                    index == context.read<PutTasksCubit>().selected
-                        ? Colors.black
-                        : ColorsManager.darkerGrey,
-                borderRadius: BorderRadius.circular(5.r),
-              ),
-              child: Center(
-                child: Text(type, style: StylesManager.white15w400),
+            child: AspectRatio(
+              aspectRatio: 3,
+              child: Container(
+                padding: EdgeInsets.symmetric(vertical: 5.w),
+                margin: EdgeInsets.symmetric(horizontal: 5.w),
+                decoration: BoxDecoration(
+                  color:
+                      index == context.read<PutTasksCubit>().selected
+                          ? Colors.black
+                          : ColorsManager.darkerGrey,
+                  borderRadius: BorderRadius.circular(5.r),
+                ),
+                child: Center(
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Text(
+                      type,
+                      style: StylesManager.white15w400.copyWith(
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                ),
               ),
             ),
           ),

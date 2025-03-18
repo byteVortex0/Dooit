@@ -26,21 +26,24 @@ class PinButton extends StatelessWidget {
               borderRadius: BorderRadius.circular(7.r),
               border: Border.all(color: Colors.black, width: 1.w),
             ),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.push_pin_outlined,
-                  color: cubit.isPinned ? Colors.white : Colors.black,
-                  size: 15.sp,
-                ),
-                Text(
-                  'Pin',
-                  style:
-                      cubit.isPinned
-                          ? StylesManager.white12w500
-                          : StylesManager.black12w500,
-                ),
-              ],
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.push_pin_outlined,
+                    color: cubit.isPinned ? Colors.white : Colors.black,
+                    size: 15.sp,
+                  ),
+                  Text(
+                    'Pin',
+                    style:
+                        cubit.isPinned
+                            ? StylesManager.white12w500
+                            : StylesManager.black12w500,
+                  ),
+                ],
+              ),
             ),
           ),
         );

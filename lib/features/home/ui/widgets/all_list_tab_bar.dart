@@ -76,21 +76,24 @@ class AllListTabBar extends StatelessWidget {
                                       .getAllTasks();
                                 });
                           },
-                          child: Center(
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Icon(
-                                  Icons.add,
-                                  color: Colors.white,
-                                  size: 20.sp,
-                                ),
-                                SizedBox(width: 5.w),
-                                Text(
-                                  'New List',
-                                  style: StylesManager.white15w400,
-                                ),
-                              ],
+                          child: FittedBox(
+                            fit: BoxFit.scaleDown,
+                            child: Center(
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(
+                                    Icons.add,
+                                    color: Colors.white,
+                                    size: 20.sp,
+                                  ),
+                                  SizedBox(width: 5.w),
+                                  Text(
+                                    'New List',
+                                    style: StylesManager.white15w400,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),

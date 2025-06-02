@@ -1,16 +1,40 @@
-# dooit
+# 📝 Dooit - Task Management App
 
-A new Flutter project.
+Dooit is a simple and clean Flutter app that helps you manage your daily tasks efficiently. Add, edit, complete, and delete tasks with ease. Built with clean architecture principles and open for everyone to explore and contribute.
 
-## Getting Started
+![Screenshot](screenshots/main_screen.png) 
 
-This project is a starting point for a Flutter application.
+## 🎥 Watch the Demo
+Check out the app demo on YouTube: [Watch Now](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🧠 Add and manage daily tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks easily
+- 💾 Local data persistence
+
+---
+
+## 🛠️ Built With
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [Hive](https://docs.hivedb.dev/) (or whatever DB you used)
+- [Bloc](https://bloclibrary.dev/) for state management
+- [GetIt](https://pub.dev/packages/get_it) for dependency injection
+- [flutter_screenutil](https://pub.dev/packages/flutter_screenutil)
+
+---
+
+## 📬 Contact
+
+Feel free to reach out if you have questions, feedback, or collaboration ideas!
+
+- 💼 LinkedIn: [Mahmoud Ahmed]([https://www.linkedin.com/in/amr-essam](https://www.linkedin.com/in/mahmoud-ahmed-484100212/))
+- 🐙 GitHub: [@byteVortex0](https://github.com/byteVortex0)
+- 📧 Email: mahmodahmed201559@gmail.com
+- 📞 Phone/WhatsApp: +20 101 845 2234
+

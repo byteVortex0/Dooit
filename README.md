@@ -33,7 +33,7 @@ Check out the app demo on YouTube: [Watch Now](https://www.youtube.com/watch?v=Y
 
 Feel free to reach out if you have questions, feedback, or collaboration ideas!
 
-- 💼 LinkedIn: [Mahmoud Ahmed]([https://www.linkedin.com/in/amr-essam](https://www.linkedin.com/in/mahmoud-ahmed-484100212/))
+- 💼 LinkedIn: [@Mahmoud Ahmed]([https://www.linkedin.com/in/amr-essam](https://www.linkedin.com/in/mahmoud-ahmed-484100212/))
 - 🐙 GitHub: [@byteVortex0](https://github.com/byteVortex0)
 - 📧 Email: mahmodahmed201559@gmail.com
 - 📞 Phone/WhatsApp: +20 101 845 2234

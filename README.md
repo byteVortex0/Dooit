@@ -1,6 +1,6 @@
 # 📝 Dooit - Task Management App
 
-Dooit is a simple and clean Flutter app that helps you manage your daily tasks efficiently. Add, edit, complete, and delete tasks with ease. Built with clean architecture principles and open for everyone to explore and contribute.
+Dooit is a simple and clean Flutter app that helps you manage your daily tasks efficiently. Add, edit, complete, and delete tasks with ease. Built with clean code and open for everyone to explore and contribute.
 
 ![Screenshot](screenshots/main_screen.png) 
 

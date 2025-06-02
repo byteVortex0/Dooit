@@ -6,7 +6,7 @@ Dooit is a simple and clean Flutter app that helps you manage your daily tasks e
 
 
 ## 🎥 Watch the Demo
-Check out the app demo on YouTube: [Watch Now](https://youtu.be/4rEpX4VNmFI)
+Check out the app demo on YouTube: [Watch Now](https://youtu.be/gY5x-o7uaiw)
 
 ---
 
@@ -23,10 +23,11 @@ Check out the app demo on YouTube: [Watch Now](https://youtu.be/4rEpX4VNmFI)
 
 - [Flutter](https://flutter.dev/)
 - [Dart](https://dart.dev/)
-- [Hive](https://docs.hivedb.dev/) (or whatever DB you used)
-- [Bloc](https://bloclibrary.dev/) for state management
-- [GetIt](https://pub.dev/packages/get_it) for dependency injection
-- [flutter_screenutil](https://pub.dev/packages/flutter_screenutil)
+- [Hive](https://pub.dev/packages/hive)
+- [Shared Preferences](https://pub.dev/packages/shared_preferences)
+- [Bloc](https://pub.dev/packages/flutter_bloc) for state management
+- [Flutter Screenutil](https://pub.dev/packages/flutter_screenutil)
+
 
 ---
 
@@ -35,7 +36,6 @@ Check out the app demo on YouTube: [Watch Now](https://youtu.be/4rEpX4VNmFI)
 Feel free to reach out if you have questions, feedback, or collaboration ideas!
 
 - 💼 LinkedIn: [Mahmoud Ahmed](https://www.linkedin.com/in/bytevortex0)
-- 🐙 GitHub: [@byteVortex0](https://github.com/byteVortex0)
 - 📧 Email: mahmodahmed201559@gmail.com
 - 💬 WhatsApp: [Chat on WhatsApp](https://wa.me/201018452234)
 

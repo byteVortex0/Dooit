@@ -2,7 +2,7 @@
 
 Dooit is a simple and clean Flutter app that helps you manage your daily tasks efficiently. Add, edit, complete, and delete tasks with ease. Built with clean code and open for everyone to explore and contribute.
 
-![Screenshot_1748826801](https://github.com/user-attachments/assets/6daceac6-63ff-453d-8fbf-6ca8542ff04b) ![Screenshot_1748826856](https://github.com/user-attachments/assets/f35fe9f8-2ee7-4b1d-b207-5a2f57d5f702)
+![Screenshot_1748826801](https://github.com/user-attachments/assets/6daceac6-63ff-453d-8fbf-6ca8542ff04b)          ![Screenshot_1748826856](https://github.com/user-attachments/assets/f35fe9f8-2ee7-4b1d-b207-5a2f57d5f702)
 
 ## 🎥 Watch the Demo
 Check out the app demo on YouTube: [Watch Now](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)

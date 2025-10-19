@@ -6,7 +6,7 @@ Dooit is a simple and clean Flutter app that helps you manage your daily tasks e
 
 
 ## 🎥 Watch the Demo
-Check out the app demo on YouTube: [Watch Now](https://youtu.be/gY5x-o7uaiw)
+[![Watch the demo](https://img.youtube.com/vi/gY5x-o7uaiw/0.jpg)](https://youtu.be/gY5x-o7uaiw)
 
 ---
 
